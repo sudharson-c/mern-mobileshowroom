@@ -9,7 +9,7 @@ app.use(express.json());
 const db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "", // Replace with your MySQL password
+  password: "",
   database: "mobileshowroom",
 });
 
